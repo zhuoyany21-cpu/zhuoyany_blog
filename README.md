@@ -1,7 +1,8 @@
-## hi!!!
-
+## My Blog
+## https://zhuoyany21-cpu.github.io/zhuoyany_blog/blog.html
+## Here is where I share my blog posts about my journey with Python!
 <!--
-**zhuoyany21-cpu/zhuoyany21-cpu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## zhuoyany21-cpu/zhuoyany21-cpu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
