@@ -4,6 +4,7 @@ pretty sure its the right font
 checked again to canva and it was the right font
 CALUDE HELPED A LOT FOR THE STYLE
 */
+
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap');
 
 /*
@@ -21,13 +22,11 @@ go to coolers color palette
 
 }
 
-
 * {
 
     box-sizing: border-box;
 
 }
-
 
 body {
 
@@ -44,8 +43,7 @@ body {
 
 }
 
-
-/* 
+/*
    top navigation!!!
     needed a design and style for the links up top
 */
@@ -66,7 +64,6 @@ nav {
 
 }
 
-
 nav a {
 
     color: var(--dark);
@@ -82,15 +79,13 @@ nav a {
 
 }
 
-
 nav a:hover {
 
     opacity: 0.55;
 
 }
 
-
-/* 
+/*
     PAGE LAYOUT
     looking at the size preference
 */
@@ -103,8 +98,7 @@ nav a:hover {
 
 }
 
-
-/* 
+/*
     BIG TITLES
     large titles look nice
 */
@@ -128,6 +122,40 @@ nav a:hover {
 
 }
 
+/*
+   BLOG CHAPTER LINKS
+   makes the blog posts look like chapters
+*/
+
+.blog-links {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    margin-bottom: 70px;
+
+}
+
+.blog-links a {
+
+    color: var(--dark);
+
+    text-decoration: none;
+
+    font-size: 32px;
+
+    font-weight: 400;
+
+}
+
+.blog-links a:hover {
+
+    text-decoration: underline;
+
+}
 
 /*
    HOME PAGE
@@ -144,7 +172,6 @@ nav a:hover {
 
 }
 
-
 .home-links {
 
     display: flex;
@@ -156,7 +183,6 @@ nav a:hover {
     gap: 26px;
 
 }
-
 
 .home-links a {
 
@@ -170,13 +196,11 @@ nav a:hover {
 
 }
 
-
 .home-links a:hover {
 
     text-decoration: underline;
 
 }
-
 
 /*
    ABOUT PAGE
@@ -201,7 +225,6 @@ nav a:hover {
 
 }
 
-
 /*
    BLOG POSTS
    claude helped me space it out
@@ -218,7 +241,6 @@ nav a:hover {
     gap: 110px;
 
 }
-
 
 /*
    POST BOX
@@ -251,7 +273,6 @@ nav a:hover {
 
 }
 
-
 /*
    POST DATE
    ALWAYS 40PX
@@ -269,7 +290,6 @@ nav a:hover {
     text-align: left;
 
 }
-
 
 /*
    POST TITLE
@@ -291,7 +311,6 @@ nav a:hover {
 
 }
 
-
 /* 
    POST CONTENT
    ALWAYS 35PX
@@ -310,7 +329,6 @@ nav a:hover {
 
 }
 
-
 .post-content p {
 
     margin-top: 0;
@@ -321,13 +339,11 @@ nav a:hover {
 
 }
 
-
 .post-content p:last-child {
 
     margin-bottom: 0;
 
 }
-
 
 /*
    CODE BLOCKS
@@ -346,13 +362,11 @@ nav a:hover {
 
 }
 
-
 .post-content code {
 
     font-family: monospace;
 
 }
-
 
 /*
    DELETE POST BUTTON
@@ -383,7 +397,6 @@ nav a:hover {
 
 }
 
-
 .delete-post-button:hover {
 
     background:
@@ -391,8 +404,7 @@ nav a:hover {
 
 }
 
-
-/* 
+/*
    CREATE NEW POST
     designed create a new post button (using canva)
 */
@@ -410,7 +422,6 @@ nav a:hover {
     justify-content: center;
 
 }
-
 
 .create-box {
 
@@ -431,8 +442,7 @@ nav a:hover {
 
 }
 
-
-/* 
+/*
    POST TITLE INPUT
 (designing the post itself)
 */
@@ -465,7 +475,6 @@ nav a:hover {
 
 }
 
-
 .create-box input::placeholder {
 
     color: var(--dark);
@@ -476,8 +485,7 @@ nav a:hover {
 
 }
 
-
-/* 
+/*
    POST CONTENT INPUT
 changed this multiple times, asked chat gpt what they thought
 */
@@ -511,7 +519,6 @@ changed this multiple times, asked chat gpt what they thought
 
 }
 
-
 .create-box textarea::placeholder {
 
     color: var(--dark);
@@ -521,7 +528,6 @@ changed this multiple times, asked chat gpt what they thought
     text-align: center;
 
 }
-
 
 /*
    PUBLISH BUTTON
@@ -548,14 +554,12 @@ changed this multiple times, asked chat gpt what they thought
 
 }
 
-
 .publish-button:hover {
 
     background:
         rgba(0, 0, 0, 0.04);
 
 }
-
 
 /* 
    VIDEO FEED
@@ -572,7 +576,6 @@ realized i didnt need this at this moment, but i already did blog.html
 
 }
 
-
 .video-post {
 
     width: 780px;
@@ -580,7 +583,6 @@ realized i didnt need this at this moment, but i already did blog.html
     max-width: 100%;
 
 }
-
 
 .video-post-date {
 
@@ -592,8 +594,7 @@ realized i didnt need this at this moment, but i already did blog.html
 
 }
 
-
-/* 
+/*
    VIDEO BOX
 designed this on canva, just moved the idea from canva to here
 */
@@ -619,7 +620,6 @@ designed this on canva, just moved the idea from canva to here
 
 }
 
-
 .video-wrapper video {
 
     width: 100%;
@@ -633,7 +633,6 @@ designed this on canva, just moved the idea from canva to here
     object-fit: contain;
 
 }
-
 
 /*
    VIDEO PLAY BUTTON
@@ -671,7 +670,6 @@ also deisgned on canva. the button is in the extra elements section
 
 }
 
-
 .play-button::after {
 
     content: "";
@@ -693,7 +691,6 @@ also deisgned on canva. the button is in the extra elements section
 
 }
 
-
 /* 
    VIDEO UPLOAD
 aligning the label span
@@ -708,7 +705,6 @@ aligning the label span
     margin-top: 110px;
 
 }
-
 
 .upload-label {
 
@@ -738,7 +734,6 @@ aligning the label span
 
 }
 
-
 .upload-label span:last-child {
 
     position: absolute;
@@ -749,7 +744,6 @@ aligning the label span
 
 }
 
-
 .upload-label:hover {
 
     background:
@@ -757,13 +751,11 @@ aligning the label span
 
 }
 
-
 #videoInput {
 
     display: none;
 
 }
-
 
 /*
    MOBILE
@@ -772,7 +764,6 @@ not sure if the video lines up fully with the shape
 */
 
 @media (max-width: 900px) {
-
 
     nav {
 
@@ -784,13 +775,11 @@ not sure if the video lines up fully with the shape
 
     }
 
-
     nav a {
 
         font-size: 22px;
 
     }
-
 
     .page {
 
@@ -800,7 +789,6 @@ not sure if the video lines up fully with the shape
 
     }
 
-
     .big-title {
 
         letter-spacing: -4px;
@@ -809,13 +797,11 @@ not sure if the video lines up fully with the shape
 
     }
 
-
     .home-title {
 
         margin-top: 180px;
 
     }
-
 
     .home-links a {
 
@@ -823,10 +809,9 @@ not sure if the video lines up fully with the shape
 
     }
 
-
     /*
        ABOUT
-   */
+    */
 
     .about-text {
 
@@ -836,11 +821,24 @@ not sure if the video lines up fully with the shape
 
     }
 
-
-    /* 
+    /*
        BLOG
        SAME SIZES AS DESKTOP
-   */
+    */
+
+    .blog-links {
+
+        gap: 10px;
+
+        margin-bottom: 55px;
+
+    }
+
+    .blog-links a {
+
+        font-size: 32px;
+
+    }
 
     .post-card {
 
@@ -861,7 +859,6 @@ not sure if the video lines up fully with the shape
 
     }
 
-
     .post-date {
 
         font-size: 40px;
@@ -869,7 +866,6 @@ not sure if the video lines up fully with the shape
         text-align: left;
 
     }
-
 
     .post-title {
 
@@ -881,7 +877,6 @@ not sure if the video lines up fully with the shape
 
     }
 
-
     .post-content {
 
         font-size: 35px;
@@ -890,17 +885,15 @@ not sure if the video lines up fully with the shape
 
     }
 
-
     .post-content p {
 
         text-align: left;
 
     }
 
-
     /*
        DELETE BUTTON ON POSTSSSSS
-   */
+    */
 
     .delete-post-button {
 
@@ -910,7 +903,6 @@ not sure if the video lines up fully with the shape
             12px 24px;
 
     }
-
 
     /*
        CREATE POST!!!! (might have been redundant (claude did not remove thought)
@@ -922,13 +914,11 @@ not sure if the video lines up fully with the shape
 
     }
 
-
     .create-box {
 
         width: 100%;
 
     }
-
 
     .create-box input {
 
@@ -940,7 +930,6 @@ not sure if the video lines up fully with the shape
 
     }
 
-
     .create-box textarea {
 
         height: 120px;
@@ -951,13 +940,11 @@ not sure if the video lines up fully with the shape
 
     }
 
-
     .create-box input::placeholder {
 
         text-align: center;
 
     }
-
 
     .create-box textarea::placeholder {
 
@@ -965,13 +952,11 @@ not sure if the video lines up fully with the shape
 
     }
 
-
     .publish-button {
 
         height: 65px;
 
     }
-
 
     /*
        VIDEO
@@ -984,7 +969,6 @@ not sure if the video lines up fully with the shape
 
     }
 
-
     .video-wrapper {
 
         width: 100%;
@@ -995,13 +979,11 @@ not sure if the video lines up fully with the shape
 
     }
 
-
     .video-post-date {
 
         font-size: 25px;
 
     }
-
 
     .play-button {
 
@@ -1010,7 +992,6 @@ not sure if the video lines up fully with the shape
         height: 150px;
 
     }
-
 
     .play-button::after {
 
@@ -1022,8 +1003,7 @@ not sure if the video lines up fully with the shape
 
     }
 
-
-    /* 
+    /*
        VIDEO UPLOAD
     connected with files on computer
     */
@@ -1034,13 +1014,11 @@ not sure if the video lines up fully with the shape
 
     }
 
-
     .upload-label {
 
         font-size: 22px;
 
     }
-
 
     .upload-label span:last-child {
 
