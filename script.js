@@ -1,4 +1,3 @@
-
 // BLOG POSTS!!!!!!!!!
 
 
@@ -229,7 +228,7 @@ function createPost(
 
     // THE PARAGRAPH FORMAT
 
-       const post =
+    const post =
         document.createElement(
             "article"
         );
@@ -380,6 +379,46 @@ function createPost(
 
 function loadPosts() {
 
+
+    // GET POSTS THAT WERE DELETED
+
+    const deletedPosts =
+        JSON.parse(
+            localStorage.getItem(
+                "deletedPosts"
+            )
+        ) || [];
+
+
+    // REMOVE ORIGINAL POSTS THAT WERE DELETED
+
+    document
+        .querySelectorAll(
+            ".post-card[data-id]"
+        )
+        .forEach(
+            function(post) {
+
+                const postID =
+                    post.dataset.id;
+
+
+                if (
+                    deletedPosts.includes(
+                        postID
+                    )
+                ) {
+
+                    post.remove();
+
+                }
+
+            }
+        );
+
+
+    // GET SAVED POSTS
+
     const posts =
         getSavedPosts();
 
@@ -494,7 +533,41 @@ function deletePost(
     );
 
 
-    // this migth have been redundant but maybe not. put the delete post before
+    // REMEMBER THAT THIS POST WAS DELETED
+
+    const deletedPosts =
+        JSON.parse(
+            localStorage.getItem(
+                "deletedPosts"
+            )
+        ) || [];
+
+
+    if (
+        !deletedPosts.includes(
+            String(
+                postID
+            )
+        )
+    ) {
+
+        deletedPosts.push(
+            String(
+                postID
+            )
+        );
+
+    }
+
+
+    localStorage.setItem(
+        "deletedPosts",
+        JSON.stringify(
+            deletedPosts
+        )
+    );
+
+
     // DELETE THE POST
 
     post.remove();
@@ -716,12 +789,10 @@ function postVideo(
     );
 
 
-// CLEAR THE FILE INPUT
+    // CLEAR THE FILE INPUT
 
     event.target.value = "";
 
 }
 
-
 // NOT SURE WHETHER OR NOT TO HAVE DELETE VIDEO, MIGHT NOT POST VIDEO EITHER WAY (MAYBE)
-
