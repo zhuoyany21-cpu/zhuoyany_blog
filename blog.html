@@ -208,18 +208,6 @@ else:
 
                 </p>
 
-
-                <!-- DELETE BUTTON -->
-
-                <button
-                    class="delete-post-button"
-                    onclick="deletePost(this)">
-
-                    Delete Post
-
-                </button>
-
-
             </article>
 
 
@@ -314,18 +302,6 @@ else:
 
                 </p>
 
-
-                <!-- DELETE BUTTON -->
-
-                <button
-                    class="delete-post-button"
-                    onclick="deletePost(this)">
-
-                    Delete Post
-
-                </button>
-
-
             </article>
 
 
@@ -382,7 +358,8 @@ else:
 
                     <p>
 
-                        Claude helped me with learning how to code in general like some key words and how to write the code correctly. One time Claude was wrong was when I asked how to make sure my blog post showed up on everyone's screens. Claude interpreted this incorrectly and only made sure that the blog post would save on my computer's storage only. Once I realized this issue, I was able to ask Claude what are some ways to make sure that the blog would save on every device. By asking this question, Claude answered with how my storage space was wrong and helped me fix the mistake with that. 
+                        Claude helped me with learning how to code in general like some key words and how to write the code correctly. One time Claude was wrong was when I asked how to make sure my blog post showed up on everyone's screens. Claude interpreted this incorrectly and only made sure that the blog post would save on my computer's storage only. Once I realized this issue, I was able to ask Claude what are some ways to make sure that the blog would save on every device. By asking this question, Claude answered with how my storage space was wrong and helped me fix the mistake with that.
+
                     </p>
 
 
@@ -404,68 +381,17 @@ else:
 
                 </p>
 
-
-                <!-- DELETE BUTTON -->
-
-                <button
-                    class="delete-post-button"
-                    onclick="deletePost(this)">
-
-                    Delete Post
-
-                </button>
-
-
             </article>
 
 
         </section>
 
-
-        <!-- CREATE NEW POST -->
-
-        <section class="create-section">
-
-
-            <div class="create-box">
-
-
-                <!-- POST TITLE -->
-
-                <input
-                    type="text"
-                    id="postTitle"
-                    placeholder="type post title here">
-
-
-                <!-- POST CONTENT -->
-
-                <textarea
-                    id="postContent"
-                    placeholder="type new post here and publish"></textarea>
-
-
-                <!-- PUBLISH BUTTON -->
-
-                <button
-                    class="publish-button"
-                    onclick="publishPost()">
-
-                    ↗
-
-                </button>
-
-
-            </div>
-
-
-        </section>
-
-
     </main>
 
 
-    <script src="script.js"></script>
+    <!-- script.js is not loaded on this page.
+         The current script uses localStorage, which only saves posts
+         in an individual browser instead of publishing them for everyone. -->
 
 
 </body>
