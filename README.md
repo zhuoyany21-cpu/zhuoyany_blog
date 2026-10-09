@@ -3,4 +3,5 @@
 Here is where I share my blog posts about my journey with Python! 
 
 Python Post: blog.html#python \
-GIt Post: blog.html#git
+Git Post: blog.html#git \
+Learning Claude Post: blog.html#claude
