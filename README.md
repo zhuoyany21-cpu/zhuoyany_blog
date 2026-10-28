@@ -4,7 +4,7 @@ Hello everyone! Here is where I share my blog posts about my journey with Python
 I currently am working on updating my website and fixing any technical mistakes I might have made. 
 
 ## What Can You See On My Blog?
-On my blog, you can see my about me, which gives a little more information about what I like to do. You can also see the blog posts I have posted so far. The third component is still being fixed and it is the video blog section. I currently am working on that so this website is a work in progress. \
+On my blog, you can see my about me, which gives a little more information about what I like to do. You can also see the blog posts I have posted so far. The third component is still being fixed and it is the video blog section. I currently am working on that so this website is a work in progress.
 
 
 
