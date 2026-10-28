@@ -1,5 +1,5 @@
 # My Blog
-Live Site: [https://zhuoyany21-cpu.github.io/zhuoyany_blog/blog.html](https://zhuoyany21-cpu.github.io/zhuoyany_blog/index.html) \
+Live Site: [https://zhuoyany21-cpu.github.io/zhuoyany_blog/blog.html](https://zhuoyany21-cpu.github.io/zhuoyany_blog/index.html) 
 
 ## Description
 Hello! Here is where I share my blog posts about my journey with Python and GitHub! (There is more information about what I like to do in the About Me section on my website. On my website, you will see the home page, where you are able to access the different features of my website. This is still a work in progress so new features might be added. \
